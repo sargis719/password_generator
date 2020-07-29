@@ -9,7 +9,7 @@ class InvalidInput(Error):
 def generate_random_password():
     """
     This function takes two words from the user, generates a random password
-    using the words and returns the word.
+    using the words and returns the password.
     """
     print("To generate a password please enter two words 4-6 characters long each.")
     while True:
